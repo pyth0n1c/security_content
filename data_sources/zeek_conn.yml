@@ -1,8 +1,8 @@
 name: Zeek Conn
 id: 01dff429-9c29-4181-87ae-ea19cde20031
-version: 2
+version: 3
 creation_date: '2025-03-13'
-modification_date: '2026-05-13'
+modification_date: '2026-06-18'
 author: Patrick Bareiss, Splunk
 description: Data source object for Zeek connection logs
 source: bro:conn:json
@@ -10,7 +10,7 @@ sourcetype: bro:conn:json
 supported_TA:
     - name: TA for Zeek
       url: https://splunkbase.splunk.com/app/5466
-      version: 1.0.10
+      version: 1.0.11
 fields:
     - action
     - bytes
