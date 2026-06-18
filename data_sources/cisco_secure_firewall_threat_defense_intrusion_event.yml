@@ -1,8 +1,8 @@
 name: Cisco Secure Firewall Threat Defense Intrusion Event
 id: d11b67ec-1cb2-4f6f-a2d8-a099c7e15b29
-version: 2
+version: 3
 creation_date: '2025-04-16'
-modification_date: '2026-05-13'
+modification_date: '2026-06-18'
 author: Nasreddine Bencherchali, Splunk
 description: Data source object for raw intrusion events from Cisco Secure Firewall Threat Defense
 source: not_applicable
@@ -10,7 +10,7 @@ sourcetype: cisco:sfw:estreamer
 supported_TA:
     - name: Cisco Security Cloud
       url: https://splunkbase.splunk.com/app/7404
-      version: 3.6.5
+      version: 3.6.7
 fields:
     - Application
     - Classification

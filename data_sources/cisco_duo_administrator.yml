@@ -1,8 +1,8 @@
 name: Cisco Duo Administrator
 id: 38e22de6-8b6b-449c-ae26-a640c88ff7f9
-version: 2
+version: 3
 creation_date: '2025-07-10'
-modification_date: '2026-05-13'
+modification_date: '2026-06-18'
 author: Patrick Bareiss, Splunk
 description: Data source object for Cisco Duo Administrator
 source: cisco_duo
@@ -11,7 +11,7 @@ separator:
 supported_TA:
     - name: Cisco Security Cloud
       url: https://splunkbase.splunk.com/app/7404
-      version: 3.6.5
+      version: 3.6.7
 fields:
     - action
     - actionlabel
