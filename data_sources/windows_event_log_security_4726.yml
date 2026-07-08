@@ -1,8 +1,8 @@
 name: Windows Event Log Security 4726
 id: 0b56dcd7-0f72-4a05-9226-d6059781737b
-version: 4
+version: 5
 creation_date: '2024-05-22'
-modification_date: '2026-05-13'
+modification_date: '2026-07-08'
 author: Patrick Bareiss, Splunk
 description: Logs an event when a user account is deleted from Active Directory.
 mitre_components:
@@ -14,7 +14,7 @@ separator_value: '4726'
 supported_TA:
     - name: Splunk Add-on for Microsoft Windows
       url: https://splunkbase.splunk.com/app/742
-      version: 10.0.1
+      version: 10.1.0
 fields:
     - _time
     - Caller_Domain

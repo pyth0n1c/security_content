@@ -1,8 +1,8 @@
 name: Windows Event Log Security 4625
 id: 365a02c2-7d18-4baf-b76e-d90c20bbe6ed
-version: 4
+version: 5
 creation_date: '2024-05-22'
-modification_date: '2026-05-13'
+modification_date: '2026-07-08'
 author: Patrick Bareiss, Splunk
 description: Logs an event when an account fails to log on to a system.
 mitre_components:
@@ -15,7 +15,7 @@ separator_value: '4625'
 supported_TA:
     - name: Splunk Add-on for Microsoft Windows
       url: https://splunkbase.splunk.com/app/742
-      version: 10.0.1
+      version: 10.1.0
 fields:
     - _time
     - ActivityID

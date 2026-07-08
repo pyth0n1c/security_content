@@ -1,8 +1,8 @@
 name: Windows Event Log Security 4624
 id: 08682968-0366-4882-9559-fe4fe018a846
-version: 4
+version: 5
 creation_date: '2024-05-22'
-modification_date: '2026-05-13'
+modification_date: '2026-07-08'
 author: Patrick Bareiss, Splunk
 description: Logs an event when an account successfully logs on to a system.
 mitre_components:
@@ -16,7 +16,7 @@ separator_value: '4624'
 supported_TA:
     - name: Splunk Add-on for Microsoft Windows
       url: https://splunkbase.splunk.com/app/742
-      version: 10.0.1
+      version: 10.1.0
 fields:
     - _time
     - ActivityID
