@@ -1,8 +1,8 @@
 name: Windows Event Log Security 4794
 id: ec7da74f-274a-4bde-aa0e-15c68aca0426
-version: 5
+version: 6
 creation_date: '2024-05-22'
-modification_date: '2026-07-08'
+modification_date: '2026-07-09'
 author: Patrick Bareiss, Splunk
 description: Logs attempts to set the Directory Services Restore Mode (DSRM) administrator password, including details about the account name and the user performing the action.
 mitre_components:
@@ -17,7 +17,7 @@ separator_value:
 supported_TA:
     - name: Splunk Add-on for Microsoft Windows
       url: https://splunkbase.splunk.com/app/742
-      version: 10.1.0
+      version: 10.1.1
 fields:
     - _time
     - ActivityID
