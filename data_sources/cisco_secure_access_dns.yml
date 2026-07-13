@@ -1,8 +1,8 @@
 name: Cisco Secure Access DNS
 id: 5673dba3-cae9-449e-8991-03832d79f729
-version: 1
+version: 2
 creation_date: '2026-05-06'
-modification_date: '2026-05-06'
+modification_date: '2026-07-13'
 author: Bhavin Patel, Splunk
 description: |
   Captures DNS security events from Cisco Secure Access (including Umbrella-style DNS policy and roaming client telemetry) with client identity, query and response metadata, resolved domain, and URL/content categorization.
@@ -12,7 +12,7 @@ sourcetype: cisco:cloud_security:dns
 supported_TA:
   - name: Cisco Secure Access Add-on for Splunk
     url: https://splunkbase.splunk.com/app/7569
-    version: 1.0.50
+    version: 1.0.52
 fields:
 - RecordType
 - ReplyCode
