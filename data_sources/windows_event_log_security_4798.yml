@@ -1,8 +1,8 @@
 name: Windows Event Log Security 4798
 id: 29e97f72-eb2e-400e-b0c9-81277547e43b
-version: 6
+version: 7
 creation_date: '2024-05-22'
-modification_date: '2026-07-09'
+modification_date: '2026-07-16'
 author: Patrick Bareiss, Splunk
 description: Logs an enumeration of local group membership on a system, including details about the groups queried and the account performing the action.
 mitre_components:
@@ -16,7 +16,7 @@ separator: EventCode
 supported_TA:
     - name: Splunk Add-on for Microsoft Windows
       url: https://splunkbase.splunk.com/app/742
-      version: 10.1.1
+      version: 10.1.2
 fields:
     - _time
     - ActivityID

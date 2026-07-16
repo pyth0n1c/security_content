@@ -1,8 +1,8 @@
 name: NTLM Operational 8006
 id: 9f50a672-6f7d-4621-a3bd-69468c6b7a7f
-version: 4
+version: 5
 creation_date: '2025-02-21'
-modification_date: '2026-07-09'
+modification_date: '2026-07-16'
 author: Bhavin Patel, Splunk
 description: Data source object for NTLM Operational 8006
 source: XmlWinEventLog:Microsoft-Windows-NTLM/Operational
@@ -11,7 +11,7 @@ separator: EventCode
 supported_TA:
     - name: Splunk Add-on for Microsoft Windows
       url: https://splunkbase.splunk.com/app/742
-      version: 10.1.1
+      version: 10.1.2
 fields:
     - CategoryString
     - Channel

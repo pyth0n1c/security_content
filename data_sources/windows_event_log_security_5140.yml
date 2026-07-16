@@ -1,8 +1,8 @@
 name: Windows Event Log Security 5140
 id: 93e0ca09-e4b8-4da6-872a-d0127c4d2b22
-version: 6
+version: 7
 creation_date: '2024-05-22'
-modification_date: '2026-07-09'
+modification_date: '2026-07-16'
 author: Patrick Bareiss, Splunk
 description: Logs access to a network share, including details about the user, share path, and the access type.
 mitre_components:
@@ -17,7 +17,7 @@ separator_value: '5140'
 supported_TA:
     - name: Splunk Add-on for Microsoft Windows
       url: https://splunkbase.splunk.com/app/742
-      version: 10.1.1
+      version: 10.1.2
 fields:
     - _time
     - AccessList

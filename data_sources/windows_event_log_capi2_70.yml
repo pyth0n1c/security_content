@@ -1,8 +1,8 @@
 name: Windows Event Log CAPI2 70
 id: 821de0a6-c5b4-491b-a27e-187552792817
-version: 6
+version: 7
 creation_date: '2024-05-22'
-modification_date: '2026-07-09'
+modification_date: '2026-07-16'
 author: Patrick Bareiss, Splunk
 description: This event log records events related to cryptographic operations, including the deletion and export of certificates.
 mitre_components:
@@ -18,7 +18,7 @@ separator_value: '70'
 supported_TA:
     - name: Splunk Add-on for Microsoft Windows
       url: https://splunkbase.splunk.com/app/742
-      version: 10.1.1
+      version: 10.1.2
 fields:
     - _time
     - Channel
