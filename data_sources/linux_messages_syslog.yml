@@ -1,8 +1,8 @@
 name: Linux Messages Syslog
 id: c9e3bbb5-e0a2-4bac-8457-227e71841bda
-version: 3
+version: 4
 creation_date: '2025-05-06'
-modification_date: '2026-07-09'
+modification_date: '2026-07-24'
 author: Ravent Tait, Splunk
 description: Logs kernel events on a Linux system, including
   service starts/stops, hardware events, authentication notices, and other OS-level activity.
@@ -16,7 +16,7 @@ sourcetype: linux_messages_syslog
 supported_TA:
 - name: Splunk Add-on for Unix and Linux
   url: https://splunkbase.splunk.com/app/833
-  version: 10.3.1
+  version: 10.2.0
 fields:
 - _time
 - action

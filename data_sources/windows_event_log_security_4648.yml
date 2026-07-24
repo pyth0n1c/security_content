@@ -1,8 +1,8 @@
 name: Windows Event Log Security 4648
 id: 6a367f8b-1ee0-463d-94a7-029757c6cd02
-version: 7
+version: 8
 creation_date: '2024-05-22'
-modification_date: '2026-07-16'
+modification_date: '2026-07-24'
 author: Patrick Bareiss, Splunk
 description: Logged when an account logon is attempted by a process by explicitly specifying the credentials of that account
 mitre_components:
@@ -15,7 +15,7 @@ separator_value: '4648'
 supported_TA:
     - name: Splunk Add-on for Microsoft Windows
       url: https://splunkbase.splunk.com/app/742
-      version: 10.1.2
+      version: 10.0.1
 fields:
     - _time
     - ActivityID

@@ -1,8 +1,8 @@
 name: Windows Event Log AppXDeployment-Server 855
 id: 4491537c-521c-46f7-9209-f56f852aa231
-version: 5
+version: 6
 creation_date: '2025-08-18'
-modification_date: '2026-07-16'
+modification_date: '2026-07-24'
 author: Michael Haag, Splunk
 description: 'This data source captures Windows Event Logs from the Microsoft-Windows-AppXDeploymentServer/Operational channel, specifically focusing on EventCode 855. These events are generated when a package deployment operation completes successfully, providing details about the packages that were installed or updated.
 
@@ -19,7 +19,7 @@ separator: EventCode
 supported_TA:
     - name: Splunk Add-on for Microsoft Windows
       url: https://splunkbase.splunk.com/app/742
-      version: 10.1.2
+      version: 10.0.1
 fields:
     - CategoryString
     - Channel
