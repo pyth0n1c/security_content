@@ -1,8 +1,8 @@
 name: CrowdStrike ProcessRollup2
 id: cbb06880-9dd9-4542-ac60-bd6e5d3c3e4e
-version: 5
+version: 6
 creation_date: '2024-05-22'
-modification_date: '2026-07-15'
+modification_date: '2026-07-25'
 author: Patrick Bareiss, Splunk
 description: Logs process-related activities captured by CrowdStrike, including process creation, termination, and metadata such as hashes, parent processes, and command-line arguments.
 mitre_components:
@@ -18,7 +18,7 @@ separator_value: ProcessRollup2
 supported_TA:
     - name: Splunk Add-on for CrowdStrike FDR
       url: https://splunkbase.splunk.com/app/5579
-      version: 3.1.1
+      version: 3.0.0
 fields:
     - AuthenticationId
     - AuthenticationId_meaning

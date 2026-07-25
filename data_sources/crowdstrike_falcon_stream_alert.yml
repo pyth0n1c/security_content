@@ -1,8 +1,8 @@
 name: CrowdStrike Falcon Stream Alert
 id: 52b38751-b0db-4965-a800-ebaabd1fd7d5
-version: 4
+version: 5
 creation_date: '2025-07-01'
-modification_date: '2026-07-15'
+modification_date: '2026-07-25'
 author: Bhavin Patel, Bryan Pluta, Splunk
 description: Logs of CrowdStrike Falcon Stream Alerts
 mitre_components:
@@ -17,7 +17,7 @@ separator: event.DetectName
 supported_TA:
     - name: Splunk Add-on for CrowdStrike FDR
       url: https://splunkbase.splunk.com/app/5579
-      version: 3.1.1
+      version: 3.0.0
 fields:
     - action
     - description
