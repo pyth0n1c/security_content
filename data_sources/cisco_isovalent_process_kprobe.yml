@@ -1,8 +1,8 @@
 name: Cisco Isovalent Process Kprobe
 id: b2620ef2-fac6-467f-bdc8-253d65db1cb9
-version: 3
+version: 4
 creation_date: '2026-01-05'
-modification_date: '2026-06-18'
+modification_date: '2026-07-28'
 author: Bhavin Patel, Splunk
 description: Captures kernel probe (kprobe) telemetry from Cisco Isovalent Runtime Security, including function name, arguments, and process context, enabling visibility into low-level kernel interactions that may indicate container escape attempts or system tampering.
 source: not_applicable
@@ -10,7 +10,7 @@ sourcetype: cisco:isovalent
 supported_TA:
     - name: Cisco Security Cloud
       url: https://splunkbase.splunk.com/app/7404
-      version: 3.6.7
+      version: 3.6.8
 fields:
     - _time
     - app
