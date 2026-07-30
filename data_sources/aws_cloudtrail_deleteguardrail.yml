@@ -1,8 +1,8 @@
 name: AWS CloudTrail DeleteGuardrail
 id: 2f6e9d7a-1c53-48b1-be57-33a91e0f8c42
-version: 4
+version: 5
 creation_date: '2024-05-22'
-modification_date: '2026-07-24'
+modification_date: '2026-07-30'
 author: Bhavin Patel, Splunk
 description: Logs an event when a guardrail is deleted within the AWS CloudTrail.
 mitre_components:
@@ -14,7 +14,7 @@ separator_value: DeleteGuardrail
 supported_TA:
     - name: Splunk Add-on for AWS
       url: https://splunkbase.splunk.com/app/1876
-      version: 8.0.0
+      version: 8.2.1
 fields:
     - _time
     - action

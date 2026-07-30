@@ -1,8 +1,8 @@
 name: AWS CloudTrail DeleteKnowledgeBase
 id: a8c47f25-5693-4d1a-9f8b-6e94d15ac2d9
-version: 4
+version: 5
 creation_date: '2025-04-17'
-modification_date: '2026-07-24'
+modification_date: '2026-07-30'
 author: Bhavin Patel, Splunk
 description: Logs an event when a knowledge base is deleted within the AWS CloudTrail.
 mitre_components:
@@ -14,7 +14,7 @@ separator_value: DeleteKnowledgeBase
 supported_TA:
     - name: Splunk Add-on for AWS
       url: https://splunkbase.splunk.com/app/1876
-      version: 8.0.0
+      version: 8.2.1
 fields:
     - _time
     - action

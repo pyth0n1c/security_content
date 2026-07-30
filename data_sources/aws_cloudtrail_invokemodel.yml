@@ -1,8 +1,8 @@
 name: AWS CloudTrail InvokeModel
 id: 5d92a1b6-3e78-4ff2-be83-7a4c01f9df6c
-version: 4
+version: 5
 creation_date: '2024-05-22'
-modification_date: '2026-07-24'
+modification_date: '2026-07-30'
 author: Bhavin Patel, Splunk
 description: Logs an event when a model is invoked within the AWS CloudTrail.
 mitre_components:
@@ -14,7 +14,7 @@ separator_value: InvokeModel
 supported_TA:
     - name: Splunk Add-on for AWS
       url: https://splunkbase.splunk.com/app/1876
-      version: 8.0.0
+      version: 8.2.1
 fields:
     - _time
     - action
