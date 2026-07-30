@@ -1,8 +1,8 @@
 name: Linux Auditd Syscall
 id: 4dff7047-0d43-4096-bb3f-b756c889bbad
-version: 6
+version: 7
 creation_date: '2024-08-08'
-modification_date: '2026-07-24'
+modification_date: '2026-07-30'
 author: Teoderick Contreras, Splunk
 description: Logs system calls made by processes on a Linux system, including details about the syscall number, arguments, return values, and associated process metadata.
 mitre_components:
@@ -18,7 +18,7 @@ configuration: https://github.com/Neo23x0/auditd/blob/master/audit.rules
 supported_TA:
     - name: Splunk Add-on for Unix and Linux
       url: https://splunkbase.splunk.com/app/833
-      version: 10.2.0
+      version: 10.3.2
 fields:
     - msg
     - type
