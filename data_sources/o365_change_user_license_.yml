@@ -1,8 +1,8 @@
 name: O365 Change user license.
 id: 1029a20d-3d0d-4fb9-b5e2-22ac5380b20a
-version: 3
+version: 4
 creation_date: '2024-05-22'
-modification_date: '2026-05-13'
+modification_date: '2026-08-03'
 author: Patrick Bareiss, Splunk
 description: Logs changes to user licenses in Microsoft 365, including additions, removals, or updates to service plans associated with a user account.
 mitre_components:
@@ -17,7 +17,7 @@ separator_value: Change user license.
 supported_TA:
     - name: Splunk Add-on for Microsoft Office 365
       url: https://splunkbase.splunk.com/app/4055
-      version: 6.0.2
+      version: 6.1.0
 fields:
     - _time
     - ActorContextId
