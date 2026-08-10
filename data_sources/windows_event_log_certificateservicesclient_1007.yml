@@ -1,8 +1,8 @@
 name: Windows Event Log CertificateServicesClient 1007
 id: c51444e3-479d-4c4a-b111-e8276a3acf39
-version: 8
+version: 9
 creation_date: '2024-05-22'
-modification_date: '2026-07-31'
+modification_date: '2026-08-10'
 author: Patrick Bareiss, Splunk
 description: Logs the export of a certificate from the local certificate store, including details about the certificate thumbprint, subject names, and the process involved.
 mitre_components:
@@ -18,7 +18,7 @@ separator_value: '1007'
 supported_TA:
     - name: Splunk Add-on for Microsoft Windows
       url: https://splunkbase.splunk.com/app/742
-      version: 11.0.0
+      version: 10.0.1
 fields:
     - _time
     - ActivityID
