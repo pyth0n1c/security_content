@@ -1,8 +1,8 @@
 name: Nginx Access
 id: c716a418-eab3-4df5-9dff-5420174e3068
-version: 3
+version: 4
 creation_date: '2024-07-16'
-modification_date: '2026-05-13'
+modification_date: '2026-08-12'
 author: Patrick Bareiss, Splunk
 description: Logs HTTP/S access events on an Nginx server, including details such as client IP, request method, URI, response status, and user agent.
 mitre_components:
@@ -16,7 +16,7 @@ sourcetype: nginx:plus:kv
 supported_TA:
     - name: Splunk Add-on for NGINX
       url: https://splunkbase.splunk.com/app/3258
-      version: 3.3.0
+      version: 3.3.1
 fields:
     - _time
     - action
