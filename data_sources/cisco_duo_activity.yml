@@ -1,8 +1,8 @@
 name: Cisco Duo Activity
 id: 83f727f6-8754-41f8-b9f7-8226886a659e
-version: 5
+version: 6
 creation_date: '2025-07-10'
-modification_date: '2026-07-31'
+modification_date: '2026-08-12'
 author: Patrick Bareiss, Splunk
 description: Data source object for Cisco Duo Activity
 source: cisco_duo
@@ -11,7 +11,7 @@ separator:
 supported_TA:
     - name: Cisco Security Cloud
       url: https://splunkbase.splunk.com/app/7404
-      version: 3.6.9
+      version: 3.6.10
 fields:
     - access_device.browser
     - access_device.browser_version
