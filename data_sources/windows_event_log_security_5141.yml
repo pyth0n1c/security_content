@@ -1,8 +1,8 @@
 name: Windows Event Log Security 5141
 id: eafb35fa-f034-4be3-8508-d9173a73c0a1
-version: 10
+version: 11
 creation_date: '2024-05-22'
-modification_date: '2026-08-10'
+modification_date: '2026-08-12'
 author: Patrick Bareiss, Splunk
 description: Logs the deletion of an Active Directory object, including details about the object name, type, and the user performing the action.
 mitre_components:
@@ -17,7 +17,7 @@ separator_value: '5141'
 supported_TA:
     - name: Splunk Add-on for Microsoft Windows
       url: https://splunkbase.splunk.com/app/742
-      version: 10.0.1
+      version: 11.0.1
 fields:
     - _time
     - ActivityID
