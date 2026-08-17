@@ -1,8 +1,8 @@
 name: Windows Event Log Printservice 808
 id: e3a26785-4389-4830-8d7b-3dad4252719e
-version: 10
+version: 11
 creation_date: '2024-05-22'
-modification_date: '2026-08-12'
+modification_date: '2026-08-17'
 author: Patrick Bareiss, Splunk
 description: Logs an event when the print spooler service fails to load a printer plug-in module.
 mitre_components:
@@ -16,7 +16,7 @@ separator_value: '808'
 supported_TA:
     - name: Splunk Add-on for Microsoft Windows
       url: https://splunkbase.splunk.com/app/742
-      version: 11.0.1
+      version: 11.0.2
 fields:
     - _time
     - ComputerName

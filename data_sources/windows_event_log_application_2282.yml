@@ -1,8 +1,8 @@
 name: Windows Event Log Application 2282
 id: 4490537e-5e0c-46f7-9209-f56f852aa237
-version: 10
+version: 11
 creation_date: '2024-05-22'
-modification_date: '2026-08-12'
+modification_date: '2026-08-17'
 author: Patrick Bareiss, Splunk
 description: Logs an event in IIS when a module DLL fails to load due to a configuration issue, including details about the module and error message.
 mitre_components:
@@ -16,7 +16,7 @@ separator: EventCode
 supported_TA:
     - name: Splunk Add-on for Microsoft Windows
       url: https://splunkbase.splunk.com/app/742
-      version: 11.0.1
+      version: 11.0.2
 fields:
     - _time
     - Channel

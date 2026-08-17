@@ -1,8 +1,8 @@
 name: Windows Event Log Printservice 316
 id: 12f0be8b-22c0-4fdf-9468-b7ccca824d1d
-version: 10
+version: 11
 creation_date: '2024-05-22'
-modification_date: '2026-08-12'
+modification_date: '2026-08-17'
 author: Patrick Bareiss, Splunk
 description: Logs an event when printer drivers are installed or updated on the system.
 mitre_components:
@@ -15,7 +15,7 @@ separator_value: '316'
 supported_TA:
     - name: Splunk Add-on for Microsoft Windows
       url: https://splunkbase.splunk.com/app/742
-      version: 11.0.1
+      version: 11.0.2
 fields:
     - _time
     - ComputerName

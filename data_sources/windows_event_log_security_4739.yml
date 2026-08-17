@@ -1,8 +1,8 @@
 name: Windows Event Log Security 4739
 id: c1e0442a-8a97-405d-baf2-057c5d68cd9a
-version: 11
+version: 12
 creation_date: '2024-05-22'
-modification_date: '2026-08-12'
+modification_date: '2026-08-17'
 author: Patrick Bareiss, Splunk
 description: Logs an event when a domain policy, such as account or lockout policy, is modified in Active Directory or local security settings.
 mitre_components:
@@ -15,7 +15,7 @@ separator_value: '4739'
 supported_TA:
     - name: Splunk Add-on for Microsoft Windows
       url: https://splunkbase.splunk.com/app/742
-      version: 11.0.1
+      version: 11.0.2
 fields:
     - _time
     - Caller_Domain

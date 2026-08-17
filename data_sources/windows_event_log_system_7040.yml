@@ -1,8 +1,8 @@
 name: Windows Event Log System 7040
 id: 91738e9e-d112-41c9-b91b-e5868d8993d9
-version: 11
+version: 12
 creation_date: '2024-05-22'
-modification_date: '2026-08-12'
+modification_date: '2026-08-17'
 author: Patrick Bareiss, Splunk
 description: Logs changes to the start type of a Windows service, including details about the service name, old start type, and new start type.
 mitre_components:
@@ -17,7 +17,7 @@ separator_value: '7040'
 supported_TA:
     - name: Splunk Add-on for Microsoft Windows
       url: https://splunkbase.splunk.com/app/742
-      version: 11.0.1
+      version: 11.0.2
 fields:
     - _time
     - Channel
