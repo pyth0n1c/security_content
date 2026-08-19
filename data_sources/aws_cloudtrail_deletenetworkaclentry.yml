@@ -1,8 +1,8 @@
 name: AWS CloudTrail DeleteNetworkAclEntry
 id: a0dd0f10-cc03-425d-bd5a-e1e0d954b856
-version: 6
+version: 7
 creation_date: '2024-05-22'
-modification_date: '2026-07-30'
+modification_date: '2026-08-19'
 author: Patrick Bareiss, Splunk
 description: Logs the deletion of a network ACL entry in AWS, including details about the rule number and associated network ACL.
 mitre_components:
@@ -16,7 +16,7 @@ separator_value: DeleteNetworkAclEntry
 supported_TA:
     - name: Splunk Add-on for AWS
       url: https://splunkbase.splunk.com/app/1876
-      version: 8.2.1
+      version: 8.2.2
 fields:
     - _time
     - action

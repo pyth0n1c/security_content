@@ -1,8 +1,8 @@
 name: AWS CloudTrail CreateLoginProfile
 id: 0024fdb1-0d62-4449-970a-746952cf80b6
-version: 6
+version: 7
 creation_date: '2024-05-22'
-modification_date: '2026-07-30'
+modification_date: '2026-08-19'
 author: Patrick Bareiss, Splunk
 description: Logs the creation of login profiles for IAM users, including associated metadata and authentication settings.
 mitre_components:
@@ -17,7 +17,7 @@ separator_value: CreateLoginProfile
 supported_TA:
     - name: Splunk Add-on for AWS
       url: https://splunkbase.splunk.com/app/1876
-      version: 8.2.1
+      version: 8.2.2
 fields:
     - _time
     - action

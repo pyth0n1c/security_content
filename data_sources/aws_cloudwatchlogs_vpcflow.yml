@@ -1,8 +1,8 @@
 name: AWS CloudWatchLogs VPCflow
 id: 38a34fc4-e128-4478-a8f4-7835d51d5135
-version: 6
+version: 7
 creation_date: '2024-07-31'
-modification_date: '2026-07-30'
+modification_date: '2026-08-19'
 author: Bhavin Patel, Splunk
 description: Logs an event when network traffic flow information such as source and destination IPs, ports, protocol, and action (allow/deny) is captured for VPC in AWS.
 mitre_components:
@@ -12,7 +12,7 @@ source: aws_cloudwatchlogs_vpcflow
 sourcetype: aws:cloudwatchlogs:vpcflow
 supported_TA:
     - name: Splunk Add-on for AWS
-      version: 8.2.1
+      version: 8.2.2
       url: https://splunkbase.splunk.com/app/1876
 fields:
     - _raw

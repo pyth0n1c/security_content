@@ -1,8 +1,8 @@
 name: AWS CloudTrail PutImage
 id: bb13f10d-0d8c-4fde-9136-b7cfd930e87c
-version: 6
+version: 7
 creation_date: '2024-05-22'
-modification_date: '2026-07-30'
+modification_date: '2026-08-19'
 author: Patrick Bareiss, Splunk
 description: Logs an event when a container image is uploaded to a repository in AWS CloudTrail.
 mitre_components:
@@ -15,7 +15,7 @@ separator_value: PutImage
 supported_TA:
     - name: Splunk Add-on for AWS
       url: https://splunkbase.splunk.com/app/1876
-      version: 8.2.1
+      version: 8.2.2
 fields:
     - _time
     - app

@@ -1,8 +1,8 @@
 name: AWS Cloudfront
 id: 780086dc-2384-45b6-ade7-56cb00105464
-version: 6
+version: 7
 creation_date: '2024-07-16'
-modification_date: '2026-07-30'
+modification_date: '2026-08-19'
 author: Patrick Bareiss, Splunk
 description: Logs requests made to AWS CloudFront distributions, including details on client access, response data, and performance metrics.
 mitre_components:
@@ -17,7 +17,7 @@ sourcetype: aws:cloudfront:accesslogs
 supported_TA:
     - name: Splunk Add-on for AWS
       url: https://splunkbase.splunk.com/app/1876
-      version: 8.2.1
+      version: 8.2.2
 fields:
     - _time
     - action

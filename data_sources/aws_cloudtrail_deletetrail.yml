@@ -1,8 +1,8 @@
 name: AWS CloudTrail DeleteTrail
 id: a5af09ff-07b6-4df6-92a0-2146bfe402c8
-version: 6
+version: 7
 creation_date: '2024-05-22'
-modification_date: '2026-07-30'
+modification_date: '2026-08-19'
 author: Patrick Bareiss, Splunk
 description: Logs the deletion of an AWS CloudTrail trail, including details about the trail name and its associated logging configurations.
 mitre_components:
@@ -17,7 +17,7 @@ separator_value: DeleteTrail
 supported_TA:
     - name: Splunk Add-on for AWS
       url: https://splunkbase.splunk.com/app/1876
-      version: 8.2.1
+      version: 8.2.2
 fields:
     - _time
     - app
