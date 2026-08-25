@@ -1,8 +1,8 @@
 name: Azure Audit Create or Update an Azure Automation Runbook
 id: 2bd83221-7a8b-436f-9b2b-efa1d44d009e
-version: 6
+version: 7
 creation_date: '2024-05-22'
-modification_date: '2026-07-30'
+modification_date: '2026-08-25'
 author: Patrick Bareiss, Splunk
 description: Logs an event when a new Azure Automation Runbook is created or an existing one is updated.
 mitre_components:
@@ -15,7 +15,7 @@ separator_value: Create or Update an Azure Automation Runbook
 supported_TA:
     - name: Splunk Add-on for Microsoft Cloud Services
       url: https://splunkbase.splunk.com/app/3110
-      version: 6.3.1
+      version: 6.3.2
 fields:
     - _time
     - authorization.action

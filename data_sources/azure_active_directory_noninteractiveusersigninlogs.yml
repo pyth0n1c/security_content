@@ -1,8 +1,8 @@
 name: Azure Active Directory NonInteractiveUserSignInLogs
 id: 11fe8a43-164d-47e4-b542-afc2f242068b
-version: 5
+version: 6
 creation_date: '2025-02-21'
-modification_date: '2026-07-30'
+modification_date: '2026-08-25'
 author: Bhavin Patel, Splunk
 description: Data source object for Azure Active Directory NonInteractiveUserSignInLogs
 source: Azure AD
@@ -11,7 +11,7 @@ separator: operationName
 supported_TA:
     - name: Splunk Add-on for Microsoft Cloud Services
       url: https://splunkbase.splunk.com/app/3110
-      version: 6.3.1
+      version: 6.3.2
 fields:
     - action
     - additional_details
