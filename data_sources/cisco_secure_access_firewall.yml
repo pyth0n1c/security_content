@@ -1,8 +1,8 @@
 name: Cisco Secure Access Firewall
 id: 5dc07487-f834-4850-b6a7-4cc09e56549b
-version: 4
+version: 5
 creation_date: '2026-04-29'
-modification_date: '2026-07-20'
+modification_date: '2026-08-31'
 author: Bhavin Patel, Splunk
 description: Captures firewall connection events from Cisco Secure Access including user identity, source and destination metadata, protocol details, and session statistics. Enables analysis of network traffic patterns, access policy enforcement, brute force attempts, and anomalous connection behavior across cloud-managed network access infrastructure.
 source: cisco_secure_access:firewall
@@ -10,7 +10,7 @@ sourcetype: cisco:cloud_security:firewall
 supported_TA:
     - name: Cisco Secure Access Add-on for Splunk
       url: https://splunkbase.splunk.com/app/7569
-      version: 1.0.53
+      version: 1.0.54
 fields:
     - _time
     - action
