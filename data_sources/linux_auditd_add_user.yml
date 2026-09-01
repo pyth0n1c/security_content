@@ -1,8 +1,8 @@
 name: Linux Auditd Add User
 id: 30f79353-e1d2-4585-8735-1e0359559f3f
-version: 8
+version: 9
 creation_date: '2024-08-08'
-modification_date: '2026-08-11'
+modification_date: '2026-09-01'
 author: Teoderick Contreras, Splunk
 description: Logs activities related to the addition of a new user account on a Linux system, including details about the username, UID, and the process initiating the action.
 mitre_components:
@@ -18,7 +18,7 @@ configuration: https://github.com/Neo23x0/auditd/blob/master/audit.rules
 supported_TA:
     - name: Splunk Add-on for Unix and Linux
       url: https://splunkbase.splunk.com/app/833
-      version: 10.3.3
+      version: 10.3.4
 fields:
     - msg
     - type

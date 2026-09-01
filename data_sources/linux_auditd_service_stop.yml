@@ -1,8 +1,8 @@
 name: Linux Auditd Service Stop
 id: 0643483c-bc62-455c-8d6e-1630e5f0e00d
-version: 8
+version: 9
 creation_date: '2024-08-08'
-modification_date: '2026-08-11'
+modification_date: '2026-09-01'
 author: Teoderick Contreras, Splunk
 description: Logs events related to the stoppage of a service on a Linux system, including details about the service name, the process initiating the stop, and associated timestamps.
 mitre_components:
@@ -18,7 +18,7 @@ configuration: https://github.com/Neo23x0/auditd/blob/master/audit.rules
 supported_TA:
     - name: Splunk Add-on for Unix and Linux
       url: https://splunkbase.splunk.com/app/833
-      version: 10.3.3
+      version: 10.3.4
 fields:
     - msg
     - type
