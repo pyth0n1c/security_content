@@ -1,8 +1,8 @@
 name: Cisco Secure Firewall Threat Defense Connection Event
 id: 18878597-8f8a-4bca-a805-bfbe35e00032
-version: 7
+version: 8
 creation_date: '2025-04-03'
-modification_date: '2026-08-12'
+modification_date: '2026-09-08'
 author: Nasreddine Bencherchali, Splunk
 description: Data source object for raw connection events from Cisco Secure Firewall Threat Defense
 source: not_applicable
@@ -10,7 +10,7 @@ sourcetype: cisco:sfw:estreamer
 supported_TA:
     - name: Cisco Security Cloud
       url: https://splunkbase.splunk.com/app/7404
-      version: 3.6.10
+      version: 3.7.0
 fields:
     - AC_RuleAction
     - action
