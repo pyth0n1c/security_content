@@ -1,8 +1,8 @@
 name: Azure Active Directory Add unverified domain
 id: d4c01fb1-3b88-46d3-bd12-9b9e256450f7
-version: 7
+version: 8
 creation_date: '2024-05-22'
-modification_date: '2026-08-25'
+modification_date: '2026-09-10'
 author: Patrick Bareiss, Splunk
 description: Logs the addition of an unverified domain to Azure Active Directory, including details about the domain name and the user or process performing the action.
 mitre_components:
@@ -17,7 +17,7 @@ separator_value: Add unverified domain
 supported_TA:
     - name: Splunk Add-on for Microsoft Cloud Services
       url: https://splunkbase.splunk.com/app/3110
-      version: 6.3.2
+      version: 6.3.3
 fields:
     - _time
     - Level

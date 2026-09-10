@@ -1,8 +1,8 @@
 name: Azure Audit Create or Update an Azure Automation webhook
 id: 575faeb2-09d0-4849-b1f6-eae241f26ff2
-version: 7
+version: 8
 creation_date: '2024-05-22'
-modification_date: '2026-08-25'
+modification_date: '2026-09-10'
 author: Patrick Bareiss, Splunk
 description: Logs an event when a webhook is created or updated in Azure Automation.
 mitre_components:
@@ -16,7 +16,7 @@ separator_value: Create or Update an Azure Automation webhook
 supported_TA:
     - name: Splunk Add-on for Microsoft Cloud Services
       url: https://splunkbase.splunk.com/app/3110
-      version: 6.3.2
+      version: 6.3.3
 fields:
     - _time
     - authorization.action

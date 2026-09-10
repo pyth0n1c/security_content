@@ -1,8 +1,8 @@
 name: Azure Active Directory User registered security info
 id: b63240de-8a01-4ba8-8987-89d18d4b375d
-version: 7
+version: 8
 creation_date: '2024-05-22'
-modification_date: '2026-08-25'
+modification_date: '2026-09-10'
 author: Patrick Bareiss, Splunk
 description: Logs an event when a user registers or updates their security information in Azure Active Directory.
 mitre_components:
@@ -15,7 +15,7 @@ separator_value: User registered security info
 supported_TA:
     - name: Splunk Add-on for Microsoft Cloud Services
       url: https://splunkbase.splunk.com/app/3110
-      version: 6.3.2
+      version: 6.3.3
 fields:
     - _time
     - Level
