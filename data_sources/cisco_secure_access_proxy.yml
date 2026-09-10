@@ -1,8 +1,8 @@
 name: Cisco Secure Access Proxy
 id: 2dc95ec2-8964-4ddb-8714-8d7dfe264922
-version: 4
+version: 5
 creation_date: '2026-05-08'
-modification_date: '2026-08-31'
+modification_date: '2026-09-10'
 author: Bhavin Patel, Splunk
 description: |
   Captures HTTP/HTTPS proxy access events from Cisco Secure Access, including requesting source, user identity, URL, HTTP method, response status, and user-agent metadata.
@@ -12,7 +12,7 @@ sourcetype: cisco:cloud_security:proxy
 supported_TA:
   - name: Cisco Secure Access Add-on for Splunk
     url: https://splunkbase.splunk.com/app/7569
-    version: 1.0.54
+    version: 1.0.55
 fields:
 - _time
 - action
