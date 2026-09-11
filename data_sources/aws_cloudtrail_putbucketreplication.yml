@@ -1,8 +1,8 @@
 name: AWS CloudTrail PutBucketReplication
 id: 0e1362eb-e592-419f-8fa5-556d3a122417
-version: 3
+version: 8
 creation_date: '2024-05-22'
-modification_date: '2026-05-13'
+modification_date: '2026-09-11'
 author: Patrick Bareiss, Splunk
 description: Logs an event when replication configurations are added or modified for an S3 bucket.
 mitre_components:
@@ -14,7 +14,7 @@ separator_value: PutBucketReplication
 supported_TA:
     - name: Splunk Add-on for AWS
       url: https://splunkbase.splunk.com/app/1876
-      version: 8.1.2
+      version: 8.3.0
 fields:
     - _time
     - additionalEventData.AuthenticationMethod

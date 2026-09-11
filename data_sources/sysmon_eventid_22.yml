@@ -1,8 +1,8 @@
 name: Sysmon EventID 22
 id: 911538b2-eba7-4d3e-85e8-d82d380c37bf
-version: 4
+version: 5
 creation_date: '2024-05-22'
-modification_date: '2026-05-13'
+modification_date: '2026-07-06'
 author: Patrick Bareiss, Splunk
 description: Logs DNS query events, including details about the queried domain, source IP, query type, and response data.
 mitre_components:
@@ -19,7 +19,7 @@ configuration: https://github.com/SwiftOnSecurity/sysmon-config
 supported_TA:
     - name: Splunk Add-on for Sysmon
       url: https://splunkbase.splunk.com/app/5709
-      version: 5.0.0
+      version: 5.0.1
 fields:
     - _time
     - Channel

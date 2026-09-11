@@ -1,8 +1,8 @@
 name: Windows Event Log Security 4719
 id: 954033e6-dd05-4775-a1f2-1f19632f4420
-version: 4
+version: 12
 creation_date: '2024-05-22'
-modification_date: '2026-05-13'
+modification_date: '2026-08-17'
 author: Patrick Bareiss, Splunk
 description: Logs an event when a system audit policy is modified on a Windows system.
 mitre_components:
@@ -15,7 +15,7 @@ separator_value: '4719'
 supported_TA:
     - name: Splunk Add-on for Microsoft Windows
       url: https://splunkbase.splunk.com/app/742
-      version: 10.0.1
+      version: 11.0.2
 fields:
     - _time
     - ActivityID

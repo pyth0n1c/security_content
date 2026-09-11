@@ -1,8 +1,8 @@
 name: Linux Auditd Daemon End
 id: 15135c45-e302-4d5a-a38a-3e8279f2ebd8
-version: 3
+version: 9
 creation_date: '2024-08-08'
-modification_date: '2026-05-13'
+modification_date: '2026-09-01'
 author: Teoderick Contreras, Splunk
 description: Logs the execution of processes on a Linux system, including details about the auditd daemon status.
 mitre_components:
@@ -19,7 +19,7 @@ configuration: https://github.com/Neo23x0/auditd/blob/master/audit.rules
 supported_TA:
     - name: Splunk Add-on for Unix and Linux
       url: https://splunkbase.splunk.com/app/833
-      version: 10.2.0
+      version: 10.3.4
 fields:
     - type
     - op

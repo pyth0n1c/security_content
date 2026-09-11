@@ -1,8 +1,8 @@
 name: Cisco AI Defense Alerts
 id: cbb06880-9dd9-4542-ac60-bd6e1d3c3e4e
-version: 2
+version: 7
 creation_date: '2025-02-14'
-modification_date: '2026-05-13'
+modification_date: '2026-09-08'
 author: Bhavin Patel
 description: Data source object for Cisco AI Defense Alerts
 source: cisco_ai_defense
@@ -11,5 +11,5 @@ separator:
 supported_TA:
     - name: Cisco Security Cloud
       url: https://splunkbase.splunk.com/app/7404
-      version: 3.6.5
+      version: 3.7.0
 fields:

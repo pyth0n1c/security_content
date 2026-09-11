@@ -1,8 +1,8 @@
 name: Cisco Isovalent Process Exec
 id: 87654321-dcba-4321-00fe-0987654321ba
-version: 2
+version: 7
 creation_date: '2026-01-05'
-modification_date: '2026-05-13'
+modification_date: '2026-09-08'
 author: Bhavin Patel, Splunk
 description: Logs process execution events within Cisco Isovalent environments, providing visibility into process exec ancestry and Kubernetes workload identity.
 source: not_applicable
@@ -10,7 +10,7 @@ sourcetype: cisco:isovalent:processExec
 supported_TA:
     - name: Cisco Security Cloud
       url: https://splunkbase.splunk.com/app/7404
-      version: 3.6.5
+      version: 3.7.0
 fields:
     - _time
     - cluster_name
