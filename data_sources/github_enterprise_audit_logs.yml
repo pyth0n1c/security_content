@@ -1,8 +1,8 @@
 name: GitHub Enterprise Audit Logs
 id: 8a4d656f-8801-4a2c-ae10-553d2696a59f
-version: 5
+version: 6
 creation_date: '2024-07-16'
-modification_date: '2026-08-11'
+modification_date: '2026-09-11'
 author: Patrick Bareiss, Splunk
 description: Data source object for GitHub Enterprise logs using Audit log streaming as described in this documentation https://docs.github.com/en/enterprise-cloud@latest/admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/streaming-the-audit-log-for-your-enterprise#setting-up-streaming-to-splunk using a Splunk HTTP Event Collector.
 source: http:github
@@ -10,7 +10,7 @@ sourcetype: httpevent
 supported_TA:
     - name: Splunk Add-on for Github
       url: https://splunkbase.splunk.com/app/6254
-      version: 4.0.0
+      version: 4.0.1
 fields:
     - _document_id
     - action
