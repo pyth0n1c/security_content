@@ -1,8 +1,8 @@
 name: AWS CloudTrail DeleteLoggingConfiguration
 id: 24a28726-28f3-4537-a953-71bfbbc3b831
-version: 6
+version: 7
 creation_date: '2025-02-21'
-modification_date: '2026-08-19'
+modification_date: '2026-09-11'
 author: Bhavin Patel, Splunk
 description: Data source object for AWS CloudTrail DeleteLoggingConfiguration
 source: aws_cloudtrail
@@ -11,7 +11,7 @@ separator: eventName
 supported_TA:
     - name: Splunk Add-on for AWS
       url: https://splunkbase.splunk.com/app/1876
-      version: 8.2.2
+      version: 8.3.0
 fields:
     - _time
 example_log: ''

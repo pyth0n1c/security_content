@@ -1,8 +1,8 @@
 name: AWS CloudTrail PutBucketVersioning
 id: 17b2fc7d-c8ce-487c-8815-f9a65a09e980
-version: 7
+version: 8
 creation_date: '2024-05-22'
-modification_date: '2026-08-19'
+modification_date: '2026-09-11'
 author: Patrick Bareiss, Splunk
 description: Logs an event when the bucket versioning state is modified in an AWS S3 bucket.
 mitre_components:
@@ -14,7 +14,7 @@ separator_value: PutBucketVersioning
 supported_TA:
     - name: Splunk Add-on for AWS
       url: https://splunkbase.splunk.com/app/1876
-      version: 8.2.2
+      version: 8.3.0
 fields:
     - _time
     - additionalEventData.AuthenticationMethod

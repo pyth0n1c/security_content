@@ -1,8 +1,8 @@
 name: AWS CloudTrail UpdateSAMLProvider
 id: e5eb628d-711e-499c-87d9-8fa5dee419ec
-version: 7
+version: 8
 creation_date: '2024-05-22'
-modification_date: '2026-08-19'
+modification_date: '2026-09-11'
 author: Patrick Bareiss, Splunk
 description: Logs an event when a SAML provider is updated in AWS.
 mitre_components:
@@ -16,7 +16,7 @@ separator_value: UpdateSAMLProvider
 supported_TA:
     - name: Splunk Add-on for AWS
       url: https://splunkbase.splunk.com/app/1876
-      version: 8.2.2
+      version: 8.3.0
 fields:
     - _time
     - action

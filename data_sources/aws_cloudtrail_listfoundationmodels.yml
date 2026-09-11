@@ -1,8 +1,8 @@
 name: AWS CloudTrail ListFoundationModels
 id: e7f31c68-84b9-4d21-a8c5-ec9d2fb3a457
-version: 6
+version: 7
 creation_date: '2024-05-22'
-modification_date: '2026-08-19'
+modification_date: '2026-09-11'
 author: Bhavin Patel, Splunk
 description: Logs an event when a list of foundation models is requested within the AWS CloudTrail.
 mitre_components:
@@ -14,7 +14,7 @@ separator_value: ListFoundationModels
 supported_TA:
     - name: Splunk Add-on for AWS
       url: https://splunkbase.splunk.com/app/1876
-      version: 8.2.2
+      version: 8.3.0
 fields:
     - _time
     - action

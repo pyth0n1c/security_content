@@ -1,8 +1,8 @@
 name: AWS CloudTrail ModifyDBInstance
 id: bfa2912d-1a33-4b05-be46-543874d68241
-version: 7
+version: 8
 creation_date: '2024-05-22'
-modification_date: '2026-08-19'
+modification_date: '2026-09-11'
 author: Patrick Bareiss, Splunk
 description: Logs an event when a modification is made to an AWS database instance, such as parameters or configurations.
 mitre_components:
@@ -16,7 +16,7 @@ separator_value: ModifyDBInstance
 supported_TA:
     - name: Splunk Add-on for AWS
       url: https://splunkbase.splunk.com/app/1876
-      version: 8.2.2
+      version: 8.3.0
 fields:
     - _time
     - app
