@@ -1,8 +1,8 @@
 name: O365 Set-Mailbox
 id: db798c5c-928c-4972-bb42-e5f90e35865f
-version: 3
+version: 4
 creation_date: '2024-05-22'
-modification_date: '2026-05-13'
+modification_date: '2026-08-03'
 author: Patrick Bareiss, Splunk
 description: Logs changes to mailbox properties in Microsoft 365, including updates to permissions, storage quotas, and configuration settings.
 mitre_components:
@@ -17,7 +17,7 @@ separator_value: Set-Mailbox
 supported_TA:
     - name: Splunk Add-on for Microsoft Office 365
       url: https://splunkbase.splunk.com/app/4055
-      version: 6.0.2
+      version: 6.1.0
 fields:
     - _time
     - AppId

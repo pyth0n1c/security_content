@@ -1,8 +1,8 @@
 name: Office 365 Reporting Message Trace
 id: b637788e-fcf0-44fa-86ea-cab81193f939
-version: 2
+version: 3
 creation_date: '2025-02-28'
-modification_date: '2026-05-13'
+modification_date: '2026-08-03'
 author: Steven Dick
 description: Data source object for Office 365 Reporting Message Trace
 source: o365
@@ -11,7 +11,7 @@ separator: Organization
 supported_TA:
     - name: Splunk Microsoft Office 365 Add-on
       url: https://splunkbase.splunk.com/app/4055
-      version: 6.0.2
+      version: 6.1.0
 fields:
     - FromIP
     - Index

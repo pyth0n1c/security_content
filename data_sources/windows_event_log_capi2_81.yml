@@ -1,8 +1,8 @@
 name: Windows Event Log CAPI2 81
 id: 463ff898-8135-4c0e-811e-f8629dfc5027
-version: 4
+version: 12
 creation_date: '2024-05-22'
-modification_date: '2026-05-13'
+modification_date: '2026-08-17'
 author: Patrick Bareiss, Splunk
 description: Logs an error when attempting to verify the digital signature of a file, including details about the file path, signature failure, and the process involved.
 mitre_components:
@@ -18,7 +18,7 @@ separator_value: '81'
 supported_TA:
     - name: Splunk Add-on for Microsoft Windows
       url: https://splunkbase.splunk.com/app/742
-      version: 10.0.1
+      version: 11.0.2
 fields:
     - _time
     - Channel

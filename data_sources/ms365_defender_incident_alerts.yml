@@ -1,8 +1,8 @@
 name: MS365 Defender Incident Alerts
 id: 12345678-90ab-cdef-1234-567890abcdef
-version: 3
+version: 4
 creation_date: '2024-10-29'
-modification_date: '2026-05-13'
+modification_date: '2026-07-21'
 author: Bhavin Patel, Splunk
 description: Logs security incidents and correlated alerts in Microsoft 365 Defender, including details about affected assets, threat types, and remediation steps.
 mitre_components:
@@ -16,7 +16,7 @@ sourcetype: ms365:defender:incident:alerts
 supported_TA:
     - name: Splunk Add-on for Microsoft Security
       url: https://splunkbase.splunk.com/app/6207
-      version: 3.0.0
+      version: 4.0.0
 fields:
     - actorName
     - alertId

@@ -1,8 +1,8 @@
 name: AWS CloudTrail DescribeEventAggregates
 id: 7efe4afe-62ae-4f96-81d1-76598ea37fc2
-version: 3
+version: 8
 creation_date: '2024-05-22'
-modification_date: '2026-05-13'
+modification_date: '2026-09-11'
 author: Patrick Bareiss, Splunk
 description: Logs an event when aggregate details about AWS events are queried, often for analysis.
 mitre_components:
@@ -15,7 +15,7 @@ separator_value: DescribeEventAggregates
 supported_TA:
     - name: Splunk Add-on for AWS
       url: https://splunkbase.splunk.com/app/1876
-      version: 8.1.2
+      version: 8.3.0
 fields:
     - _time
     - app

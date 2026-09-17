@@ -1,8 +1,8 @@
 name: AWS CloudTrail CreateKey
 id: fcfc1593-b6b5-4a0f-91c5-3c395116a8b9
-version: 3
+version: 8
 creation_date: '2024-05-22'
-modification_date: '2026-05-13'
+modification_date: '2026-09-11'
 author: Patrick Bareiss, Splunk
 description: Logs the creation of new AWS KMS keys, including details of key properties and associated metadata.
 mitre_components:
@@ -17,7 +17,7 @@ separator_value: CreateKey
 supported_TA:
     - name: Splunk Add-on for AWS
       url: https://splunkbase.splunk.com/app/1876
-      version: 8.1.2
+      version: 8.3.0
 fields:
     - _time
     - app

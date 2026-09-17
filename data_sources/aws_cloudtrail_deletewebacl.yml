@@ -1,8 +1,8 @@
 name: AWS CloudTrail DeleteWebACL
 id: 90da5f08-7961-4c29-8de8-01364982aadf
-version: 3
+version: 8
 creation_date: '2024-05-22'
-modification_date: '2026-05-13'
+modification_date: '2026-09-11'
 author: Patrick Bareiss, Splunk
 description: Logs an event when a Web Access Control List (WebACL) is deleted in AWS CloudTrail.
 mitre_components:
@@ -15,7 +15,7 @@ separator_value: DeleteWebACL
 supported_TA:
     - name: Splunk Add-on for AWS
       url: https://splunkbase.splunk.com/app/1876
-      version: 8.1.2
+      version: 8.3.0
 fields:
     - _time
     - apiVersion

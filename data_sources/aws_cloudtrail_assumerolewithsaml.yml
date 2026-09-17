@@ -1,8 +1,8 @@
 name: AWS CloudTrail AssumeRoleWithSAML
 id: 1e28f2a6-2db9-405f-b298-18734a293f77
-version: 3
+version: 8
 creation_date: '2024-05-22'
-modification_date: '2026-05-13'
+modification_date: '2026-09-11'
 author: Patrick Bareiss, Splunk
 description: Logs attempts to assume roles via SAML authentication in AWS, including details of identity provider and role mapping.
 mitre_components:
@@ -18,7 +18,7 @@ separator_value: AssumeRoleWithSAML
 supported_TA:
     - name: Splunk Add-on for AWS
       url: https://splunkbase.splunk.com/app/1876
-      version: 8.1.2
+      version: 8.3.0
 fields:
     - _time
     - action

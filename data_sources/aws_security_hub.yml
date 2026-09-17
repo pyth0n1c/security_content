@@ -1,8 +1,8 @@
 name: AWS Security Hub
 id: b02bfbf3-294f-478e-99a1-e24b8c692d7e
-version: 3
+version: 8
 creation_date: '2024-05-22'
-modification_date: '2026-05-13'
+modification_date: '2026-09-11'
 author: Patrick Bareiss, Splunk
 description: Logs an event when AWS Security Hub identifies potential security risks or deviations from configured best practices across AWS accounts.
 mitre_components:
@@ -15,7 +15,7 @@ sourcetype: aws:securityhub:finding
 supported_TA:
     - name: Splunk Add-on for AWS
       url: https://splunkbase.splunk.com/app/1876
-      version: 8.1.2
+      version: 8.3.0
 fields:
     - _time
     - AwsAccountId

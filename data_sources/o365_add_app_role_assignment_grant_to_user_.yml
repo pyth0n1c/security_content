@@ -1,8 +1,8 @@
 name: O365 Add app role assignment grant to user.
 id: ce1d7849-a1d2-47fd-b6eb-d7ef854a860c
-version: 3
+version: 4
 creation_date: '2024-05-22'
-modification_date: '2026-05-13'
+modification_date: '2026-08-03'
 author: Patrick Bareiss, Splunk
 description: Logs the assignment of an application role grant to a user in Microsoft 365, including details about the role, user, and application involved.
 mitre_components:
@@ -17,7 +17,7 @@ separator_value: Add app role assignment grant to user.
 supported_TA:
     - name: Splunk Add-on for Microsoft Office 365
       url: https://splunkbase.splunk.com/app/4055
-      version: 6.0.2
+      version: 6.1.0
 fields:
     - _time
     - ActorContextId
