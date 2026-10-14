@@ -1,8 +1,8 @@
 name: Osquery Results
 id: b0f5747a-c64c-42d1-8569-89bbb4a09cc9
-version: 4
+version: 5
 creation_date: '2024-05-22'
-modification_date: '2026-05-13'
+modification_date: '2026-10-14'
 author: Patrick Bareiss, Splunk
 description: Logs system queries performed using osquery, including details about processes, file access, network activity, and system configurations.
 mitre_components:
@@ -16,7 +16,7 @@ sourcetype: osquery:results
 supported_TA:
     - name: TA-osquery
       url: https://splunkbase.splunk.com/app/8574
-      version: 1.0.4
+      version: 1.0.5
 fields:
     - _time
     - calendarTime
