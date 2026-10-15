@@ -1,8 +1,8 @@
 name: Splunk Stream HTTP
 id: b0070a33-92ed-49e5-8f38-576cdf300710
-version: 3
+version: 4
 creation_date: '2024-05-22'
-modification_date: '2026-05-13'
+modification_date: '2026-10-15'
 author: Patrick Bareiss, Splunk
 description: Logs HTTP traffic captured by Splunk Stream, including details such as request methods, URLs, headers, response codes, and client-server interactions.
 mitre_components:
@@ -16,7 +16,7 @@ sourcetype: stream:http
 supported_TA:
     - name: Splunk Add-on for Stream Wire Data
       url: https://splunkbase.splunk.com/app/5234
-      version: 8.1.6
+      version: 8.1.7
 fields:
     - _time
     - bytes
