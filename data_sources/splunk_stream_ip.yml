@@ -1,8 +1,8 @@
 name: Splunk Stream IP
 id: c96f5906-f601-4f32-a26c-482535159bc2
-version: 3
+version: 4
 creation_date: '2024-07-16'
-modification_date: '2026-05-13'
+modification_date: '2026-10-15'
 author: Patrick Bareiss, Splunk
 description: Logs IP traffic captured by Splunk Stream, including details about source and destination IPs, protocols, and packet metadata.
 mitre_components:
@@ -16,7 +16,7 @@ sourcetype: stream:ip
 supported_TA:
     - name: Splunk Add-on for Stream Wire Data
       url: https://splunkbase.splunk.com/app/5234
-      version: 8.1.6
+      version: 8.1.7
 fields:
     - _time
     - action

@@ -1,8 +1,8 @@
 name: Splunk AppDynamics Secure Application Alert
 id: 5c963eb0-010e-4386-875f-5134879f14a7
-version: 2
+version: 3
 creation_date: '2020-01-19'
-modification_date: '2026-05-13'
+modification_date: '2026-10-22'
 author: Bhavin Patel, Splunk
 description: Data source object for alerts from Cisco Secure Application
 source: AppDynamics Security
@@ -10,7 +10,7 @@ sourcetype: appdynamics_security
 supported_TA:
     - name: Splunk Add-on for AppDynamics
       url: https://splunkbase.splunk.com/app/3471
-      version: 3.2.1
+      version: 3.3.0
 fields:
     - SourceType
     - apiServerExternal

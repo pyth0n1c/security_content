@@ -1,8 +1,8 @@
 name: Sysmon EventID 9
 id: ae4a6a24-9b8c-4386-a7ac-677d7ad5bf09
-version: 4
+version: 5
 creation_date: '2024-05-22'
-modification_date: '2026-05-13'
+modification_date: '2026-07-06'
 author: Patrick Bareiss, Splunk
 description: Logs the access of raw disk data by a process, including details about the disk name, process ID, and process metadata.
 mitre_components:
@@ -19,7 +19,7 @@ configuration: https://github.com/SwiftOnSecurity/sysmon-config
 supported_TA:
     - name: Splunk Add-on for Sysmon
       url: https://splunkbase.splunk.com/app/5709
-      version: 5.0.0
+      version: 5.0.1
 fields:
     - _time
     - Channel
